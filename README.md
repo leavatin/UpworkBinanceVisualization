@@ -22,10 +22,10 @@ This python script lets you check for Binance Tokens returns. It classifies the 
 
 1. Open `VIS Server.ipynb`
 2. Run all cells.
-3. If you encounter an output of `False` or `{'result': None, 'id': 1, 'unicorn_fied': ['binance.com', '0.12.2']}` after running `data`, run again from Cell 4 (`ubwa.create_stream(['kline_1m'], [i.lower() for i in symbols], output="UnicornFy")`) up to Cell 6 (`data`) till you get an output as shown as the image below.
+3. If you encounter an output of `False` or `{'result': None, 'id': 1, 'unicorn_fied': ['binance.com', '0.12.2']}` after running `data`, run again from Cell 4 (`ubwa.create_stream(['kline_1m'], [i.lower() for i in symbols], output="UnicornFy")`) up to Cell 6 (`data`) till you get an output as shown as the image below.` `
 `Output with false`
 ![1st error](https://user-images.githubusercontent.com/60631793/190859185-2fef18c8-168d-4787-86f8-6a53bdf38de7.jpg)
-`Output with Null values
+`Output with Null values`
 ![error 2](https://user-images.githubusercontent.com/60631793/190859195-45fdb866-b92b-4558-ae40-42da78e77189.jpg)
 4. Run the remaining cells and ensure that the stream is running by checking if it is consistently updating as shown on the image below.
 ![desired output 2](https://user-images.githubusercontent.com/60631793/190859193-b8e99698-9257-4f9d-ae24-2d519f130e04.jpg)

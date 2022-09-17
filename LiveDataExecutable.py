@@ -32,9 +32,9 @@ if st.button('Update'):
 
 all_ret = pd.DataFrame(allreturns(), symbols, columns=['Performance'])
 
-top = all_ret.Performance.nlargest(10)
+top = all_ret.Performance.nlargest(20)
 
-worst = all_ret.Performance.nsmallest(10)
+worst = all_ret.Performance.nsmallest(20)
 
 cols = st.columns(2)
 

@@ -1,0 +1,5 @@
+unicorn_binance_websocket_api
+pandas
+sqlalchemy
+streamlit
+datetime
